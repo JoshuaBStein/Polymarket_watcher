@@ -61,11 +61,11 @@ The unsupervised pipeline identifies four distinct trader profiles:
 ## 🚀 How to Run
 
 **1. Environment Setup**
-```bash
+`bash
 conda create -n whale_detect python=3.10
-pip install pandas polars scikit-learn xgboost seaborn matplotlib
+pip install pandas polars scikit-learn xgboost seaborn matplotlib`
 
-📈 Key Findings
+**📈 Key Findings
 Signal vs. Noise: 90% of wallets are "Casuals." Filtering them out improves model ROI prediction by 15-20%.
 
 Behavior predicts Performance: "Fresh Whales" identified solely by behavior (Aggression + Tenure) showed a 3x higher average ROI than the baseline user.
