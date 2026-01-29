@@ -97,3 +97,5 @@ whale-detection-algo/
 ├── environment.yml              # Conda Environment
 ├── requirements.txt             # Pip Requirements
 └── README.md                    # Project Documentation
+## 📁 Data Source
+This project utilizes historical prediction market data sourced from **[warproxxx/poly_data](https://github.com/warproxxx/poly_data)**, which was then enriched with our custom behavioral profiling engine.
