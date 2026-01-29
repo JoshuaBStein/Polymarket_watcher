@@ -1,0 +1,25 @@
+# --- Data Files (Never upload these) ---
+*.csv
+*.json
+*.parquet
+*.pkl
+
+# --- Cluster Logs (Junk files from Slurm) ---
+*.out
+*.err
+*.log
+
+# --- Python Cache ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Virtual Environments ---
+env/
+venv/
+.env
