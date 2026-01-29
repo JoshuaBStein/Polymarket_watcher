@@ -72,6 +72,9 @@ Behavior predicts Performance: "Fresh Whales" identified solely by behavior (Agg
 
 Model Performance: XGBoost achieved 88% Precision in identifying Whales, minimizing false positives.
 
+## 📁 Data Source
+This project utilizes historical prediction market data sourced from **[warproxxx/poly_data](https://github.com/warproxxx/poly_data)**, which was then enriched with our custom behavioral profiling engine.
+
 ## 📂 Repository Structure
 
 ```text
@@ -97,5 +100,5 @@ whale-detection-algo/
 ├── environment.yml              # Conda Environment
 ├── requirements.txt             # Pip Requirements
 └── README.md                    # Project Documentation
-## 📁 Data Source
-This project utilizes historical prediction market data sourced from **[warproxxx/poly_data](https://github.com/warproxxx/poly_data)**, which was then enriched with our custom behavioral profiling engine.
+
+
