@@ -71,3 +71,29 @@ Signal vs. Noise: 90% of wallets are "Casuals." Filtering them out improves mode
 Behavior predicts Performance: "Fresh Whales" identified solely by behavior (Aggression + Tenure) showed a 3x higher average ROI than the baseline user.
 
 Model Performance: XGBoost achieved 88% Precision in identifying Whales, minimizing false positives.
+
+## 📂 Repository Structure
+
+```text
+whale-detection-algo/
+│
+├── 1_Data_Pipeline/             # STEP 1: ETL & Feature Engineering
+│   ├── 00_legacy_build_features.py       # Reference implementation (Pandas)
+│   └── 01_build_features_polars.py       # High-performance pipeline (Polars)
+│
+├── 2_Unsupervised_Discovery/    # STEP 2: Clustering & Patterns
+│   ├── 02_detect_archetypes_hybrid.py    # Hybrid Strategy (Rules + KMeans)
+│   ├── 03_kmeans_baseline.py             # Baseline Model
+│   ├── 04_anomaly_detection_iso.py       # Outlier Detection
+│   ├── 05_visualize_manifolds_tsne.py    # t-SNE Visualization
+│   └── 06_visualize_thresholds.py        # Waterfall Plot
+│
+├── 3_Supervised_Models/         # STEP 3: Prediction & ROI
+│   ├── 07_generate_labels.py             # Label Generation
+│   ├── 08_balance_dataset.py             # Class Balancing
+│   ├── 09_train_classifier_rf_xgb.py     # Random Forest vs XGBoost
+│   └── 10_train_regressor_roi.py         # ROI Prediction Model
+│
+├── environment.yml              # Conda Environment
+├── requirements.txt             # Pip Requirements
+└── README.md                    # Project Documentation
