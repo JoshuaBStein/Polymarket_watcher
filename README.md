@@ -28,7 +28,7 @@ The project is divided into three distinct phases: **Unsupervised Discovery** (f
 | `09_train_classifier_rf_xgb.py` | **Model** | Trains **Random Forest** vs. **XGBoost** to predict wallet archetypes based on behavior. |
 | `10_train_regressor_roi.py` | **ROI** | Trains an **XGBRegressor** to predict future ROI based solely on behavioral attributes (tenure, aggression, frequency). |
 
-### Phase 3: Profitability Filtering
+### Phase 4: Profitability Filtering
 **Goal:** Train a model to predict if a *specific trade* will be profitable within a 6-hour window, enabling "Sniper" and "God Mode" copy-trading strategies.
 
 | Script | Role | Description |
