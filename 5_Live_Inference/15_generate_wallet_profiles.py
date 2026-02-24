@@ -9,11 +9,11 @@ from datetime import datetime
 # ==========================================
 # 🔴 CONFIGURATION
 # ==========================================
-GRAPH_API_KEY = "058d86eed21a38050a79ef4124fa57c3"  # <--- PASTE KEY HERE
+GRAPH_API_KEY = "add-api-key-here"  # <--- PASTE KEY HERE
 
 # API Endpoints
-GRAPH_URL = "https://gateway.thegraph.com/api/subgraphs/id/Bx1W4S7kDVxs9gC3s2G6DS8kdNBJNVhMviCtin2DiBp"
-GAMMA_MARKETS_URL = "https://gamma-api.polymarket.com/markets"
+GRAPH_URL = "add-url-here"
+GAMMA_MARKETS_URL = "add-url-here"
 
 # Directories (UPDATED FOR NEW STRUCTURE)
 DIR_INPUT = "data/10_raw_trades"
