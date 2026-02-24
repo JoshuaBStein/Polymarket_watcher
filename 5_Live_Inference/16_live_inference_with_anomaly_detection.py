@@ -31,7 +31,7 @@ DIR_MARKETS = os.path.join(BASE_DIR, 'data', '00_markets')
 DIR_CLASSIFIED = os.path.join(BASE_DIR, 'data', '12_classified')
 
 # --- DISCORD ---
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1466974651858288722/IYRm2oBxT-r0B-o1gnw6EiE3qvbUZNQ27CAbs_LDiVeVhQNaioV_-Yu2oxhFZdc9N8zk"
+DISCORD_WEBHOOK_URL = "add-url-here"
 
 # --- SETTINGS ---
 TARGET_CLUSTERS = [3]  
