@@ -66,7 +66,7 @@ The project is divided into six distinct phases: **Data Pipeline** (ETL), **Unsu
 
 | Script | Role | Description |
 | --- | --- | --- |
-| `14_master_pipeline.py` | **Pipeline Orchestrator** | *(Details needed - appears to coordinate the full workflow)* |
+| `14_master_pipeline.py` | **Pipeline Orchestrator** | *Coordinates the full workflow* |
 | `15_generate_wallet_profiles.py` | **Real-Time Profiling** | Fetches 24-hour trade data from TheGraph API, indexes active/closed markets, and generates behavioral profiles using Polars. Implements automatic file management with dated outputs. |
 | `16_live_inference_with_anomaly_detection.py` | **Live Detection System** | Complete monitoring system that: (1) indexes markets, (2) fetches 24h trades, (3) generates profiles, (4) applies clustering + anomaly detection, (5) sends Discord alerts for high-conviction moves and anomalies. Includes smart filtering and percentile-based thresholds. |
 
